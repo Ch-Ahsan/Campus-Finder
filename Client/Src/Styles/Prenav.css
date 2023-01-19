@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  margin-bottom: 80vh;
+  background-color: rosybrown;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.preNav {
+  background-color: #eb2872;
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  color: white;
+  height: 7vh;
+}
+
+.preNav > div {
+  padding: 0 7vmax;
+  display: flex;
+  align-items: center;
+}
+
+.preNav > div > a {
+  color: white;
+  font-size: 1.1vmax;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 500;
+  margin: 0.8vmax;
+  text-decoration: none;
+}
+
+.preNav > div > a:hover {
+  color: white;
+}
+
+.form {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}

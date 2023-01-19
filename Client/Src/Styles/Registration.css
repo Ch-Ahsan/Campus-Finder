@@ -1,0 +1,56 @@
+.registration{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    border-radius: 10px;
+    margin-top: 5vh;
+    box-shadow: 6px 6px 8px 8px rgb(68, 67, 67);
+    height: 82vh;
+}
+
+.registration>form>input{
+    padding: 0.8vmax;
+    width: 100%;
+    border: none;
+    border-bottom: 0.1px solid rgb(117, 113, 113);
+    background-color: white;
+}
+.rad{
+    display: flex;
+    margin-top: 1vmax;
+}
+.registration>form>button{
+    padding: 10px 40px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-top: 3vmax;
+    margin-left: 7vmax;
+}
+.registration>form>button:hover{
+    background-color: rgb(114, 201, 114);
+    cursor: pointer;
+}
+.registration>form>button>a{
+    text-decoration: none;
+    color: black;
+}
+#regite{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3vmax;
+    cursor: pointer;
+}
+#regite:hover{
+    background-color: rgb(114, 201, 114);
+}

@@ -1,0 +1,55 @@
+.card{
+   
+    height: 14vmax;
+    width: 55vh;
+   
+    display: flex;
+    flex-direction: column;
+  
+    cursor: pointer;
+    justify-content: center;
+    margin-bottom: 7vmax;
+    margin-top: 3vmax;
+    margin-left: 6vmax;
+    box-shadow: 6px 6px 8px 8px rgb(138, 138, 138);
+    background-color: rgb(77, 77, 77);
+    overflow: hidden;
+
+   
+}
+
+.img{
+  
+    height: 9vmax;
+    
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+.name{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding: 5px;
+    background-color: antiquewhite;
+    flex-wrap: wrap;
+
+}
+.loc{
+    
+   padding: 5px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: antiquewhite;
+   flex-wrap: wrap;
+
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
